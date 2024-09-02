@@ -23,4 +23,4 @@ from . import view, HOD_view, STAFF_view, STUDENT_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', view.INDEX, name = 'home')
-] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT )
+] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
